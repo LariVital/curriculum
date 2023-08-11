@@ -1,0 +1,65 @@
+ 
+    #profile{
+        background-color: #87ADAD;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family:'Montserrat';
+    }
+    
+    #profileName {
+        background-color: white;
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    #profileName h1{
+        margin: 0;
+    }
+
+    .card {
+        font-family: font-family: 'montserrat'
+        list-style-type: none;
+        border-radius: 20px;
+        padding: auto;
+    }
+    .card h3 {
+        font-family: 'open sans';
+    }
+
+    .card a {
+        width: 30px;
+        list-style: none;
+    }
+
+   h1,h3 {
+    text-transform: uppercase;
+   }
+
+   #container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px ;
+    
+   }
+
+   #sidebar, #content{
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+   }
+
+   #sidebar .card {
+    border-radius: 20px;
+    border:1px solid lightslategray;
+    
+   }
+
+   #sidebar h3{
+    text-align: center;
+    background-color: #87ADAD;
+    border-radius: 5px;
+   }
+
+
+   
