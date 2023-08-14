@@ -31,6 +31,10 @@
         width: 30px;
         list-style: none;
     }
+  .nobullets li{
+    list-style-type: none;
+
+  }
 
    h1,h3 {
     text-transform: uppercase;
